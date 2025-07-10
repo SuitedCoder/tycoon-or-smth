@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1751376008|118653791';
+const CACHE_VERSION = '1752191348|44442670';
 /** @type {string} */
 const CACHE_PREFIX = 'generic idle tyc-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;

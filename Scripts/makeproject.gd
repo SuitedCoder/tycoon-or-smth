@@ -3,12 +3,13 @@ extends Button
 @onready var menu = get_node("..")
 @onready var projname = get_node("../LineEdit")
 @onready var label = get_node("../../projectsmenu/projects")
-@onready var sound = get_node("/root/Main/click")
+@onready var clicksound = get_node("/root/Main/click")
+@onready var moneysound = get_node("/root/Main/cash")
 @onready var button1 = get_node("/root/Main/create")
 @onready var option = get_node("../complexitybutton")
 
 func _on_pressed() -> void:
-	sound.play()
+	clicksound.play()
 	if projname.text != "":
 		if Details.projCurrent == false:
 			Details.projCurrent = true 
